@@ -4,7 +4,9 @@
 // -save to a file or compare output to previously saved output to find changes
 
 const { default: axios } = require("axios");
+// Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 const cheerio = require("cheerio");
+//use for finding common or difference between two arrays
 const fastArrayDiff = require("fast-array-diff");
 const fs = require("fs");
 
